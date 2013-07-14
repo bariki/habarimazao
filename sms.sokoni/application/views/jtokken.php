@@ -1,0 +1,2 @@
+<script type="text/javascript" src="<?php echo base_url(); ?>theme/js/jquery.tokeninput.js"></script>
+<link rel="stylesheet" href="<?php echo base_url() . 'theme/' ?>css/token-input.css" type="text/css" />

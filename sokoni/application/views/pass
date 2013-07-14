@@ -1,0 +1,24 @@
+        <div id="content" class="container_16 clearfix">
+            <form id="form1" name="form1" method="post" action="">
+                <table width="200" border="0" cellpadding="1" cellspacing="1">
+                    <h3><?php echo $this->session->userdata['name'] ?> Password Updating</h3>
+                    <tr>
+                <?php
+                if(isset($success)) :
+                    ?>
+                <td><div class="success">Password Change is Successfully</div></td>
+                <?php
+                else: 
+                    ?>
+                <td><div class="error"><?php echo validation_errors() ?></div></td>
+                <?php
+                endif;
+                ?>
+            </tr>
+                    <tr>
+                        <td><input type="submit" name="button" id="button" value="save changes" /></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+            </form>
+        </div>

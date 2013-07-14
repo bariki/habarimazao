@@ -1,0 +1,25 @@
+
+#graph {
+	top:30px;
+	width: 960px;
+	height: 250px;
+	margin: 20px auto 0 auto;
+	padding-bottom: 10px;
+	background: whitesmoke;
+}
+#graph_title{
+	position: relative;
+  	top:50px;
+  	padding-top: 10px;
+  	width: 960px;
+  	background: whitesmoke;
+  	font-size: 20px;
+  	font-weight: bold;
+	display: inline-table;
+	text-align: center;
+	text-transform:uppercase;
+}
+pre {
+  height: 250px;
+  overflow: auto;
+}

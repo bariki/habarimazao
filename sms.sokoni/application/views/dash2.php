@@ -1,0 +1,1 @@
+ <h1><i class="icon-feather"></i><span style="text-transform: capitalize"><?php echo $title ?></span></h1>
